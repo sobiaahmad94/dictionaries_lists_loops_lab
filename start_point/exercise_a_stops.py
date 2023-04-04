@@ -32,13 +32,46 @@ stops.insert(4, "Polmont")
 # 4 - Polmont
 # 5 - Linlithgow - Polmont needs to go here so it's before Linlithgow, then index will move as there's another item in list
 # 6- Livingston...
-print(stops[5])
+# print(stops[5])
 
 #5. Remove "Livingston" from the list using its name
+
+# for stop in stops:
+#     # print(stop)
+#     if stop == "Livingston":
+#         stops.remove(stop)
+
+# print(stops)
+
+# Livingston is index 6
+
 #6. Delete "Cumbernauld" from the list by index
+# print(stops)
+# Cumbernauld is index 2
+# print(stops.pop(2))
+# print(stops)
+
+
 #7. Print the number of stops there are in the list
+# print(len(stops))
+
 #8. Sort the list alphabetically
+# print(sorted(stops))
+
 #9. Reverse the positions of the stops in the list
+print(stops)
+
+for stop in stops:
+    print(stop)
+    
+for stop in reversed(range(9)):
+    print(stop)
+
+    # How do you combine these two things? I'm not too sure.
+
+
 #10 Print out all the stops using a for loop
+for stop in stops:
+    print(stop)
 
 
