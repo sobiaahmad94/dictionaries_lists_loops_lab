@@ -92,7 +92,6 @@ print(avrils_pet_montys_species)
 # avrils_pet_montys_species = users["Avril"]["pets"][1]["favourite_superhero"]
 # print(avrils_pet_montys_species)
 
-
 # 5. Get the smallest of Erik's lottery numbers
 # users dict --> Erik dict --> "lottery_numbers" key to get list
 # --> now I've got the list  then store lottery numbers list in eriks_lottery_numbers variable
